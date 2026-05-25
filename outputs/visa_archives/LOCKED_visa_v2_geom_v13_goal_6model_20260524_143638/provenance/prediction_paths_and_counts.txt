@@ -1,0 +1,17 @@
+openvla:
+outputs/visa_v2_openloop_eval_geom_v13/openvla_full_8shard_v1/predictions.jsonl
+
+pi0:
+outputs/visa_v2_openloop_eval_geom_v13/pi0_bothview_8shard_v1/predictions.jsonl
+
+pi0_5:
+outputs/visa_v2_openloop_eval_geom_v13/pi05_bothview_24shard_v1/predictions.jsonl
+
+openvla_oft:
+outputs/visa_v2_openloop_eval_geom_v13/openvla_oft_bothview_8shard_state_v2/predictions_repaired_emptylang_dot_v3.jsonl
+
+vla_adapter_pro:
+outputs/visa_v2_openloop_eval_geom_v13/vla_adapter_pro_bothview_8shard_v1/predictions.jsonl
+
+instructvla:
+outputs/visa_v2_openloop_eval_geom_v13/instructvla_bothview_8shard_v1/predictions.jsonl
