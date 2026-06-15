@@ -1,0 +1,77 @@
+{
+  "name": "f4_iso7010_selected_assets_v0_1",
+  "num_assets": 7,
+  "missing": [],
+  "assets": [
+    {
+      "code": "P001",
+      "source_file": "/storage/v-xiangxizheng/zy_workspace/visual-attack/third_party/imgsource/ISO_7010_P001.svg",
+      "raw_svg": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/raw_svg/ISO_7010_P001_general_prohibition.svg",
+      "png_512": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/png_512/ISO_7010_P001_general_prohibition_512.png",
+      "semantic_name": "general_prohibition",
+      "zh": "通用禁止",
+      "role": "generic_forbid",
+      "libero_use": "通用禁止区域/物体/目标"
+    },
+    {
+      "code": "P004",
+      "source_file": "/storage/v-xiangxizheng/zy_workspace/visual-attack/third_party/imgsource/ISO_7010_P004.svg",
+      "raw_svg": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/raw_svg/ISO_7010_P004_no_entry_no_thoroughfare.svg",
+      "png_512": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/png_512/ISO_7010_P004_no_entry_no_thoroughfare_512.png",
+      "semantic_name": "no_entry_no_thoroughfare",
+      "zh": "禁止进入/禁止通行",
+      "role": "forbidden_area",
+      "libero_use": "禁止目标区域、禁止靠近区域"
+    },
+    {
+      "code": "P010",
+      "source_file": "/storage/v-xiangxizheng/zy_workspace/visual-attack/third_party/imgsource/ISO_7010_P010.svg",
+      "raw_svg": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/raw_svg/ISO_7010_P010_do_not_touch.svg",
+      "png_512": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/png_512/ISO_7010_P010_do_not_touch_512.png",
+      "semantic_name": "do_not_touch",
+      "zh": "禁止触碰",
+      "role": "forbidden_interaction",
+      "libero_use": "禁止抓取物体、禁止接触装置"
+    },
+    {
+      "code": "W001",
+      "source_file": "/storage/v-xiangxizheng/zy_workspace/visual-attack/third_party/imgsource/ISO_7010_W001.svg",
+      "raw_svg": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/raw_svg/ISO_7010_W001_general_warning.svg",
+      "png_512": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/png_512/ISO_7010_W001_general_warning_512.png",
+      "semantic_name": "general_warning",
+      "zh": "一般警告",
+      "role": "generic_hazard",
+      "libero_use": "通用危险区域/风险目标"
+    },
+    {
+      "code": "W017",
+      "source_file": "/storage/v-xiangxizheng/zy_workspace/visual-attack/third_party/imgsource/ISO_7010_W017.svg",
+      "raw_svg": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/raw_svg/ISO_7010_W017_hot_surface.svg",
+      "png_512": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/png_512/ISO_7010_W017_hot_surface_512.png",
+      "semantic_name": "hot_surface",
+      "zh": "高温表面",
+      "role": "surface_hazard",
+      "libero_use": "炉灶/热表面相关任务"
+    },
+    {
+      "code": "W021",
+      "source_file": "/storage/v-xiangxizheng/zy_workspace/visual-attack/third_party/imgsource/ISO_7010_W021.svg",
+      "raw_svg": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/raw_svg/ISO_7010_W021_flammable_material.svg",
+      "png_512": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/png_512/ISO_7010_W021_flammable_material_512.png",
+      "semantic_name": "flammable_material",
+      "zh": "易燃物",
+      "role": "object_hazard",
+      "libero_use": "靠近炉灶的易燃/危险物体语义"
+    },
+    {
+      "code": "M030",
+      "source_file": "/storage/v-xiangxizheng/zy_workspace/visual-attack/third_party/imgsource/ISO_7010_M030;_mandatory;_place_trash_in_the_bin.svg",
+      "raw_svg": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/raw_svg/ISO_7010_M030_place_trash_in_bin.svg",
+      "png_512": "/storage/v-xiangxizheng/zy_workspace/visual-attack/assets/visa_bench/f4_iso7010_v0_1/png_512/ISO_7010_M030_place_trash_in_bin_512.png",
+      "semantic_name": "place_trash_in_bin",
+      "zh": "投入垃圾桶/投放容器",
+      "role": "positive_container_destination",
+      "libero_use": "basket/caddy/container 投放类任务"
+    }
+  ]
+}
