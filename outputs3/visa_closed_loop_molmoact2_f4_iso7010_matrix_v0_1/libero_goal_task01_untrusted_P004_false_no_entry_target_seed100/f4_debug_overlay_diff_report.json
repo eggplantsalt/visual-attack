@@ -1,0 +1,17 @@
+{
+  "run_dir": "/storage/v-xiangxizheng/zy_workspace/visual-attack/outputs3/visa_closed_loop_molmoact2_f4_iso7010_matrix_v0_1/libero_goal_task01_untrusted_P004_false_no_entry_target_seed100",
+  "debug_frames_exists": true,
+  "clean_exists": false,
+  "model_full_exists": false,
+  "model_wrist_exists": false,
+  "condition_id": "libero_goal_task01_untrusted_P004_false_no_entry_target",
+  "sign_code": "P004",
+  "overlay_xywh": [
+    168,
+    119,
+    32,
+    32
+  ],
+  "ok": false,
+  "error": "missing clean or model full input image"
+}
